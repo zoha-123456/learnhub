@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 
-const API_URL = "https://localhost:5000/api/courses";
+const API_URL = "https://learnhub1-tau.vercel.app/api/courses";
 
 function CourseDetails(){
     const {id} = useParams();
