@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const API_URL = 'http://localhost:5000/api/contacts';
+const API_URL = 'https://learnhub1-tau.vercel.app/api/contacts';
 
 const initialForm = { name: '', email: '', subject: '', message: '' };
 
