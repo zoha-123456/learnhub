@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import StudentCard from '../components/StudentCard';
 
-const API_URL = 'http://localhost:5000/api/students';
+const API_URL = "https://learnhub1-tau.vercel.app/api/students";
 
 function Students() {
   const [students, setStudents] = useState([]);
